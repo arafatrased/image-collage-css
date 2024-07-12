@@ -15,18 +15,16 @@ img{
     flex:1; 
     /* //soman vabe 3 vag hoe jabe */
 }
-
-
 .vertical-collage img{
     height: calc((100%-5px)/2);
 }
-
-
 .square-collage{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
+
+/* for small devices */
 
 @media screen and (max-width: 576px) {
     .row{
@@ -41,6 +39,8 @@ img{
     }
     
 }
+
+/* for medium devices */
 
 @media screen and (min-width: 576px) and (max-width:992px) {
     .row{
